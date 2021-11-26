@@ -29,9 +29,9 @@ public class UploadServiceImpl implements UploadService {
         //...其他参数参考类注释
         UploadManager uploadManager = new UploadManager(cfg);
         //...生成上传凭证，然后准备上传
-        String accessKey = "FqfVHAYj2owVcGpkbZORjj71l9Ye-sxIBkf0wQzD";
-        String secretKey = "a2JFyP0O4u4YZ6lD62-SgWHO1dj9lEiDUd6wO1_J";
-        String bucket = "zhangheng-win";
+        String accessKey = "自己注册";
+        String secretKey = "自己注册";
+        String bucket = "自己搞";
         //默认不指定key的情况下，以文件内容的hash值作为文件名
         String key = fileName;
         try {
