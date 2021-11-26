@@ -30,7 +30,7 @@ public class CaptchaServiceImpl implements CaptchaService {
 	public BaseResult captcha(String ticket, String randStr) {
 		try{
 
-			Credential cred = new Credential("AKID2tVrwkIZbOvBAsPfeMnysVrxmKbcMp2y", "h8IBoAXdS0GFxPaT5RWKsACxiGXXGiuw");
+			Credential cred = new Credential("自己注册", "自己注册");
 
 			HttpProfile httpProfile = new HttpProfile();
 			httpProfile.setEndpoint("captcha.tencentcloudapi.com");
@@ -42,7 +42,7 @@ public class CaptchaServiceImpl implements CaptchaService {
 
 			String params = "{\"CaptchaType\":9,\"Ticket\":\""+ticket+"\",\"UserIp\":\"127.0.0.1\",\"Randstr\":\""
 			+randStr+"\"," +
-					"\"CaptchaAppId\":2076444335,\"AppSecretKey\":\"06pevfRDTp3dJrQPkxDOgtg**\"}";
+					"\"CaptchaAppId\":自己注册,\"AppSecretKey\":\"自己注册**\"}";
 			DescribeCaptchaResultRequest req = DescribeCaptchaResultRequest.fromJsonString(params, DescribeCaptchaResultRequest.class);
 
 			DescribeCaptchaResultResponse resp = client.DescribeCaptchaResult(req);
