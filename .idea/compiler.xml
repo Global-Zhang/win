@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="win-common" />
+        <module name="win-portal" />
+        <module name="win-rpc" />
+        <module name="win-manager" />
+        <module name="win-sso" />
+        <module name="win-order" />
+        <module name="win-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="win" target="1.8" />
+      <module name="win-common" target="1.8" />
+      <module name="win-generator" target="1.8" />
+      <module name="win-manager" target="1.8" />
+      <module name="win-order" target="1.8" />
+      <module name="win-portal" target="1.8" />
+      <module name="win-rpc" target="1.8" />
+      <module name="win-sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="win" options="" />
+      <module name="win-common" options="-parameters" />
+      <module name="win-generator" options="-parameters" />
+      <module name="win-manager" options="-parameters" />
+      <module name="win-order" options="-parameters" />
+      <module name="win-portal" options="-parameters" />
+      <module name="win-rpc" options="-parameters" />
+      <module name="win-sso" options="-parameters" />
+    </option>
+  </component>
+</project>

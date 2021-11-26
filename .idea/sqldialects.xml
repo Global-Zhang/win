@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://D:/Download/103976-master/EnWords.sql" dialect="MySQL" />
+    <file url="file://D:/java-42/Shop/003_software/数据库SQL脚本/ego_SQLyog批量insert.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/doc/ego_SQLyog单insert.sql" dialect="MySQL" />
+  </component>
+</project>

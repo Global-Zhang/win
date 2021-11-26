@@ -1,0 +1,4 @@
+#激活dev
+spring:
+  profiles:
+    active: dev

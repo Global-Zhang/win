@@ -1,0 +1,7 @@
+# Project exclude paths
+/win-common/target/
+/win-manager/target/
+/win-order/target/
+/win-portal/target/
+/win-rpc/target/
+/win-sso/target/

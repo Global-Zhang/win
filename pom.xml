@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hereWeGo</groupId>
+    <artifactId>win</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>win</name>
+
+    <modules>
+        <module>win-common</module>
+        <module>win-manager</module>
+        <module>win-sso</module>
+        <module>win-generator</module>
+        <module>win-generator</module>
+        <module>win-portal</module>
+        <module>win-rpc</module>
+        <module>win-order</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+    </parent>
+    <!--集中定义依赖组件版本号，但不引入，在子工程中用到声明的依赖时，可以不加依赖的版本号，这样可以统一管理工程中用到的依赖版本 -->
+    <properties>
+        <!-- JDK 版本定义 -->
+        <java.version>1.8</java.version>
+        <!-- mybatis 依赖 -->
+        <mybatis.version>2.1.1</mybatis.version>
+        <!-- pagehelper 分页依赖 -->
+        <pagehelper.version>1.2.12</pagehelper.version>
+        <!-- mysql 数据库依赖 -->
+        <mysql.version>8.0.18</mysql.version>
+        <!-- druid 连接池依赖 -->
+        <druid.version>1.1.20</druid.version>
+        <!--七牛云依赖-->
+        <qiniu.version>[7.2.0, 7.2.99]</qiniu.version>
+        <!--dubbo 依赖-->
+        <dubbo.version>2.0.0</dubbo.version>
+        <!--zookeeper依赖-->
+        <zookeeper.version>0.11</zookeeper.version>
+        <!-- elasticsearch 依赖 -->
+        <elasticsearch.version>7.5.0</elasticsearch.version>
+        <!-- google kaptcha依赖 -->
+        <kaptcha.version>0.0.9</kaptcha.version>
+        <!-- alipay 依赖 -->
+        <alipay.version>4.8.73.ALL</alipay.version>
+        <!-- 腾讯云依赖 -->
+        <tencent.version>3.0.111</tencent.version>
+    </properties>
+
+    <!-- 项目依赖管理 父项目只是声明依赖，子项目需要写明需要的依赖(可以省略版本信息) -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- mybatis 依赖 -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- pagehelper 分页依赖 -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.version}</version>
+            </dependency>
+            <!-- mysql 数据库依赖 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!-- druid 连接池依赖 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!--七牛云依赖-->
+            <dependency>
+                <groupId>com.qiniu</groupId>
+                <artifactId>qiniu-java-sdk</artifactId>
+                <version>${qiniu.version}</version>
+            </dependency>
+            <!-- dubbo依赖 -->
+            <dependency>
+                <groupId>com.alibaba.spring.boot</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+
+            <!--zkClient依赖-->
+            <dependency>
+                <groupId>com.101tec</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zookeeper.version}</version>
+                <!--排除这个slf4j-log4j12-依赖内的包有冲突排除这一个-->
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- elasticsearch 服务依赖 -->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <!-- rest-client 客户端依赖 -->
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <!-- rest-high-level-client 客户端依赖 -->
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <!-- google kaptcha依赖 -->
+            <dependency>
+                <groupId>com.github.axet</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptcha.version}</version>
+            </dependency>
+
+            <!-- alipay依赖 -->
+            <dependency>
+                <groupId>com.alipay.sdk</groupId>
+                <artifactId>alipay-sdk-java</artifactId>
+                <version>${alipay.version}</version>
+            </dependency>
+
+            <!-- 腾讯云依赖 -->
+            <dependency>
+                <groupId>com.tencentcloudapi</groupId>
+                <artifactId>tencentcloud-sdk-java</artifactId>
+                <version>${tencent.version}</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+</project>

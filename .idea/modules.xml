@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/win.iml" filepath="$PROJECT_DIR$/win.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-common/win-common.iml" filepath="$PROJECT_DIR$/win-common/win-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-generator/win-generator.iml" filepath="$PROJECT_DIR$/win-generator/win-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-manager/win-manager.iml" filepath="$PROJECT_DIR$/win-manager/win-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-order/win-order.iml" filepath="$PROJECT_DIR$/win-order/win-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-portal/win-portal.iml" filepath="$PROJECT_DIR$/win-portal/win-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-rpc/win-rpc.iml" filepath="$PROJECT_DIR$/win-rpc/win-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-sso/win-sso.iml" filepath="$PROJECT_DIR$/win-sso/win-sso.iml" />
+    </modules>
+  </component>
+</project>

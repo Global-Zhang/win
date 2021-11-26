@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e863df1c-7b6a-4ce7-943c-4fa6eac0b0c8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20x5brssXCdnkBdewqxVORb8uRw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/win-portal/src/main/resources/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\win\win-portal\src\main\resources\mapper" />
+      <recent name="E:\win\win-portal\src\main\java\com\hereWeGo\portal\mapper" />
+      <recent name="E:\win\win-portal\src\main\java\com\hereWeGo\portal\config" />
+      <recent name="E:\win\win-portal\src\main\java\com\hereWeGo\portal\controller" />
+      <recent name="E:\win\win-portal\src\main\java\com\hereWeGo\portal\service\Impl" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.hereWeGo.manager.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\win\win-common\src\main\java\com\hereWeGo\common\pojo" />
+      <recent name="E:\win\win-portal\src\main\resources\mapper" />
+      <recent name="E:\win\win-portal\src\main\java\com\hereWeGo\portal\Mapper" />
+      <recent name="E:\win\win-portal\src\main\java\com\hereWeGo\portal\service" />
+      <recent name="E:\win\win-order\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hereWeGo.rpc" />
+      <recent name="com.hereWeGo.manager" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mapper" />
+      <recent name="com.hereWeGo.rpc.mapper" />
+      <recent name="com.hereWeGo.order.interceptor" />
+      <recent name="com.hereWeGo.order.controller" />
+      <recent name="com.hereWeGo.rpc.config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hereWeGo.portal.service.Impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="win-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hereWeGo.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hereWeGo.manager.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="win-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hereWeGo.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hereWeGo.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="win-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hereWeGo.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hereWeGo.portal.PortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="win-rpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hereWeGo.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hereWeGo.rpc.RpcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="win-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hereWeGo.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hereWeGo.sso.SSOApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="Spring Boot.PortalApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.SSOApplication" />
+        <item itemvalue="Spring Boot.RpcApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e863df1c-7b6a-4ce7-943c-4fa6eac0b0c8" name="Default Changelist" comment="" />
+      <created>1636973476935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636973476935</updated>
+      <workItem from="1636973479624" duration="4964000" />
+      <workItem from="1636979083447" duration="86255000" />
+      <workItem from="1637222725448" duration="98000" />
+      <workItem from="1637222874862" duration="186000" />
+      <workItem from="1637223586386" duration="49000" />
+      <workItem from="1637223662467" duration="20353000" />
+      <workItem from="1637398348285" duration="78665000" />
+      <workItem from="1637596136720" duration="1101000" />
+      <workItem from="1637597455690" duration="245000" />
+      <workItem from="1637641462094" duration="6234000" />
+      <workItem from="1637648922145" duration="45205000" />
+      <workItem from="1637826204761" duration="16187000" />
+      <workItem from="1637895761864" duration="9928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="99" key="#Project_Structure" timestamp="1637039156729">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="880" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1637039156729" />
+    <state x="691" y="221" width="1012" height="744" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637828173115">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="691" y="221" width="1012" height="744" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637828173115" />
+    <state x="1179" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637222365623">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1179" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1637222365623" />
+    <state x="893" y="192" width="718" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1637902719397">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="893" y="192" width="718" height="589" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1637902719397" />
+    <state x="1249" y="451" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1637222222939">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1249" y="451" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637222222939" />
+    <state x="1216" y="388" width="564" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1637222259407">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1216" y="388" width="564" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1637222259407" />
+    <state x="1216" y="369" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1637050632608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1216" y="369" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637050632608" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1637896026917">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637896026917" />
+    <state x="1074" y="283" key="FileChooserDialogImpl" timestamp="1637400703042">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1074" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1637400703042" />
+    <state width="1117" height="656" key="GridCell.Tab.0.bottom" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.0.center" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.0.left" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.0.right" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.1.bottom" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.1.center" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.1.left" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1117" height="656" key="GridCell.Tab.1.right" timestamp="1637909653716">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1117" height="656" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637909653716" />
+    <state width="1877" height="429" key="GridCell.Tab.2.bottom" timestamp="1637571438373">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1637571438373" />
+    <state width="1877" height="429" key="GridCell.Tab.2.center" timestamp="1637571438373">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1637571438373" />
+    <state width="1877" height="429" key="GridCell.Tab.2.left" timestamp="1637571438373">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1637571438373" />
+    <state width="1877" height="429" key="GridCell.Tab.2.right" timestamp="1637571438373">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="429" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1637571438373" />
+    <state x="654" y="113" key="SettingsEditor" timestamp="1637597424537">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="654" y="113" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1637597424537" />
+    <state x="1161" y="270" width="540" height="524" key="StructurePopup" timestamp="1637850485374">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1161" y="270" width="540" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1637850485374" />
+    <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1637509427156">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="968" height="533" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1637509427156" />
+    <state x="759" y="302" key="chooseDestDirectoryDialog" timestamp="1637492585210">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="759" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637492585210" />
+    <state x="1252" y="407" width="376" height="327" key="com.intellij.database.actions.DdlActions$CommentOnObjectAction$1" timestamp="1637677209518">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1252" y="407" width="376" height="327" key="com.intellij.database.actions.DdlActions$CommentOnObjectAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1637677209518" />
+    <state x="1339" y="404" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1637400662687">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1339" y="404" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1050@0.0.1920.1050" timestamp="1637400662687" />
+    <state x="1278" y="412" width="336" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1636979250515">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1278" y="412" width="336" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1050@0.0.1920.1050" timestamp="1636979250515" />
+    <state x="1062" y="72" width="539" height="632" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1637900569152">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1062" y="72" width="539" height="632" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637900569152" />
+    <state x="925" y="100" width="902" height="857" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1637853883538">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="925" y="100" width="902" height="857" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1637853883538" />
+    <state x="998" y="171" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1637342365394">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="998" y="171" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1637342365394" />
+    <state x="311" y="204" key="new project wizard" timestamp="1637645674873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="311" y="204" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1637645674873" />
+    <state x="1096" y="247" key="run.anything.popup" timestamp="1637647928323">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1096" y="247" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637647928323" />
+    <state x="1001" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1637847196167">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1001" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1637847196167" />
+    <state x="1080" y="211" key="spring file set editor" timestamp="1637223977959">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1080" y="211" key="spring file set editor/0.0.1920.1050@0.0.1920.1050" timestamp="1637223977959" />
+  </component>
+</project>
