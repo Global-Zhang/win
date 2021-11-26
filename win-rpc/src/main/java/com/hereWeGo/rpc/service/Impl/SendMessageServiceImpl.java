@@ -22,7 +22,7 @@ public class SendMessageServiceImpl implements SendMessageService {
 		try{
 			// 实例化一个认证对象，入参需要传入腾讯云账户secretId，secretKey,此处还需注意密钥对的保密
 			// 密钥可前往https://console.cloud.tencent.com/cam/capi网站进行获取
-			Credential cred = new Credential("AKID2tVrwkIZbOvBAsPfeMnysVrxmKbcMp2y", "h8IBoAXdS0GFxPaT5RWKsACxiGXXGiuw");
+			Credential cred = new Credential("自己注册", "自己注册");
 			// 实例化一个http选项，可选的，没有特殊需求可以跳过
 			HttpProfile httpProfile = new HttpProfile();
 			httpProfile.setEndpoint("sms.tencentcloudapi.com");
@@ -36,9 +36,9 @@ public class SendMessageServiceImpl implements SendMessageService {
 			String[] phoneNumberSet1 = {"86"+phoneNumber};
 			req.setPhoneNumberSet(phoneNumberSet1);
 
-			req.setSmsSdkAppid("1400600510");
+			req.setSmsSdkAppid("自己注册");
 			req.setSign("就是这个feel倍儿爽");
-			req.setTemplateID("1215898");
+			req.setTemplateID("自己注册");
 
 			String[] templateParamSet1 = {"1"};
 			req.setTemplateParamSet(templateParamSet1);
